@@ -3,35 +3,122 @@
     <head>
         <meta charset="UTF-8">
         <title>Run Buddy</title>
+        <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
         <!-- Navigation -->
         <header>
-            <h1>RUN BUDDY</h1>
+            <h1>
+                <a href="/">RUN BUDDY</a> 
+            </h1>
+            <nav>
+                <!-- Unordered list element -->
+                <ul>
+                    <!-- List item element-->
+                    <li>
+                        <!-- Anchor element -->
+                        <a href="#what-we-do">What We Do</a>
+                    </li>
+                    <li>
+                        <a href="#what-you-do">What You Do</a>
+                    </li>
+                    <li>
+                        <a href="#your-trainers">Your Trainers</a>
+                    </li>
+                    <li>
+                        <a href="#reach-out">Reach Out</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
 
         <!-- Jumbotron -->
         <section>
         </section>
 
+        <!-- "Get Started today" section -->
+        <section>
+            <h2>Get Started Today!</h2>
+            <p>Fill out this form and one of our trainers will schedule a consult.</p>
+            <form action="#what-we-do">
+                <label for="fname"> Enter full name: </label>
+                <input type="text" id="fname" value="Your Name">
+                <label for="lname"> Enter email adress: </label>
+                <input type="email" id="lname" value="Email Address">
+                <label for="pnumber"> Enter a telephone number: </label>
+                <input type="number" id="pnumber" value="Phone Number">
+            </form>
+            
+            <p>Have you worked out with a trainer before?
+                <input type="radio" name="yes_no" value="Yes">Yes
+                <input type="radio" name="yes_no" value="No">No
+            </p>
+
+            <p>I acknowledge that I am at least 18 years of age. 
+                <input type="checkbox" name="agree">
+            </p>
+        </section>
+
         <!-- "What we do" section -->
         <section>
             <h2>What We Do</h2>
+            <p>butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade blue bottle chillwave probaly haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggins narwhal Marfa Schlitz sustainable Itelligentsia umami deep v craft</p>
         </section>
 
         <!-- "What you do" section -->
         <section>
             <h2>What You Do</h2>
+            <img src="img/laptop.png" alt="latop"/>
+            <h3>Step 1: Fill Out The Form Above.</h3>
+            <p>You're already here, so why not?</p>
+            <img src="img/chat.png" alt="chat"/>
+            <h3>Step 2: Consult With One Of Our Trainers.</h3>
+            <p>Are you here to build muscle, lose weight, or just feel good?</p>
+            <img src="img/run.png" alt="run"/>
+            <h3>Step 3: Get Running.</h3>
+            <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+            <img src="img/muscle.png" alt="muscle"/>
+            <h3>Step 4: See Results.</h3>
+            <p>Bi-weekly checkins with your trainer will keep you focused.</p>
         </section>
 
         <!-- "meet the trainers" section -->
         <section>
             <h2>Meet The Trainers</h2>
+            
+            <img src="img/trainer1.png" alt="arron_stephens"/>
+            <h3>Arron Stephens</h3>
+            <h4>Speed / Strength</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis massa lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur at leo vel nisl.</p>
+            
+            <h3>Joanna Gill</h3>
+            <h4>Endurance</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis massa lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur at leo vel nisl.</p>
+            <img src="img/trainer2.png" alt="joanna_gill"/><br>
+            <img src="img/trainer3.png" alt="harry_smith"/>
+            <h3>Harry "The Headband" Smith</h3>
+            <h4>Strength</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis massa lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur at leo vel nisl.</p>
+
         </section>
 
         <!-- "Reach Out" section -->
         <section>
             <h2>Reach Out</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11921.42656884559!2d-72.69789285!3d41.6696405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1626707226465!5m2!1sen!2sus" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            
+            <h3>Run Buddy</h3>
+            <p>
+                Any questions or concerns before signing up? <br>
+                Let us know and we'll be happy to talk to you!
+            </p>
+            <p>
+                55 Main Street<br>
+                Some Town, CA<br>
+                12345<br>
+                P: 555 Run Buddy (555.786.2839)<br>
+                E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
+            </p>
         </section>
 
         <!-- footer -->
